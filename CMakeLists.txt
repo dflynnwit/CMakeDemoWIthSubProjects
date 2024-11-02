@@ -10,3 +10,8 @@ FetchContent_MakeAvailable(SFML)
 
 add_subdirectory(demo1)
 add_subdirectory(demo2)
+add_subdirectory(demo3)
+add_subdirectory(demo4)
+add_subdirectory(demo5)
+add_subdirectory(demo6)
+add_subdirectory(space_trader)

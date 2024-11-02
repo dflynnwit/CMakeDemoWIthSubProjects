@@ -15,5 +15,11 @@ endif()
 #        ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/res
 #)
 
+## copy arial.ttf to the demo1 executable directory (there's no res dir, just arial.ttf)
+#add_custom_command(TARGET demo1 POST_BUILD
+#        COMMAND ${CMAKE_COMMAND} -E copy
+#        "${PROJECT_SOURCE_DIR}/arial.ttf"
+#        $<TARGET_FILE_DIR:demo1>
+#)
 
 install(TARGETS demo1)
